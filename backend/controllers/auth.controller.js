@@ -79,7 +79,7 @@ export const login = async (req, res) => {
                     role: user.role
             })
         }else{
-            res.status(401).json({message: "Invalid credentials"});
+            res.status(400).json({message: "Invalid credentials"});
         }
     } catch (error) {
         console.log("Error in login control", error.message);
