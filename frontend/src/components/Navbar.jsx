@@ -17,7 +17,8 @@ const Navbar = () => {
           to="/"
           className="text-2xl font-bold text-emerald-400 items-center space-x-2 flex"
         >
-          Aviii Store
+          <img src="../public/logo.png" alt="Logo" className="h-8 w-8" />
+          <span className="hidden sm:inline-block">Ecommerce</span>
         </Link>
 
         <nav className="flex flex-wrap items-center gap-4">
