@@ -17,7 +17,7 @@ const Navbar = () => {
           to="/"
           className="text-2xl font-bold text-emerald-400 items-center space-x-2 flex"
         >
-          <img src="../public/logo.png" alt="Logo" className="h-8 w-8" />
+          <img src="../public/Logo.png" alt="Logo" className="h-8 w-8" />
           <span className="hidden sm:inline-block">Ecommerce</span>
         </Link>
 
